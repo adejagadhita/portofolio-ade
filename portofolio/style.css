@@ -1,0 +1,83 @@
+*, html{
+    margin: 0;
+    padding: 0;
+   background-color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding-right: 8rem;
+    height: 50px;
+    background: rgb(223, 220, 214);
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    list-style-type: none;
+    margin-right: 1rem;
+    background-color: rgb(223, 220, 214);
+    /* background-color: aquamarine; */
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #191919;
+     background-color: rgb(223, 220, 214);
+}
+
+/* main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding-top: 15rem;
+}
+
+h1 {
+    font-size: 50px;
+} */
+
+.hero {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15rem;
+    height: 100vh;
+  
+}
+
+.name {
+    font-size: 65px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+
+.profile-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    min-height: 100vh;
+    
+  
+}
